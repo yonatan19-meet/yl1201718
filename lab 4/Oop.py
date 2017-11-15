@@ -1,3 +1,4 @@
+num = 18
 class Animal(object):
 	"""docstring for ClassName"""
 	def __init__(self, sound, name, age, favourite_colour):
@@ -10,9 +11,9 @@ class Animal(object):
 	def description(self):
 			print(self.name + " is " + str(self.age) + " years old and loves the colour " + self.favourite_colour)
 	def make_sound(self,sound):
-			print(3*self.sound)
-Butterfly = Animal("Glu Glu", "Rainbow", 18, "All of them")
+			print(num*self.sound)
+Butterfly = Animal("Glu Glu ", "Rainbow", 18, "All of them")
 Butterfly.eat("Nutella")
 
 Butterfly.description()
-Butterfly.make_sound(sound)
+Butterfly.make_sound("sound")
