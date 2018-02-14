@@ -196,7 +196,7 @@ def my_ball_collision():
 	return True
 
 def movearound(event):
-	MY_BALL.goto(event.x - SCREEN_WIDTH/2 , SCREEN_HEIGHT/2 - event.y)
+	MY_BALL.goto(event/.x - SCREEN_WIDTH/2 , SCREEN_HEIGHT/2 - event.y)
 getcanvas().bind("<Motion>", movearound)
 listen()
 
